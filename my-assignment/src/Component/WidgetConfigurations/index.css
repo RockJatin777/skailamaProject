@@ -1,0 +1,109 @@
+.wc-container{
+    display: flex;
+    font-family: "Roboto";
+    width: 100%;
+    min-height: 100vh;
+}
+
+.widget-container {
+    background-color: #F6F1FC;
+    width: 100%;
+}
+
+
+.icon-and-path-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.widget-content-card {
+    padding-left: 36px;
+    padding-right: 36px;
+}
+
+.path-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.widget-path {
+    color: #7E22CE;
+    font-weight: 700;
+}
+
+.icon-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.widget-heading {
+    color: #7E22CE;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.content-card {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    margin-left: 0px;
+    margin-bottom: 2px;
+}
+
+.line{
+    margin-top: 0px;
+    border: 1px solid #DADADA;
+    margin-bottom: 10px;
+}
+
+.widget-btn{
+    background-color: transparent;
+    border: none;
+}
+
+.widget-active-button{
+    background-color: transparent;
+    border: none;
+    color: #7E22CE;
+    font-weight: 700;
+}
+
+.general-widget-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.label{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.input{
+    border: 1px solid #999999;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 0px;
+}
+
+.input-desc{
+    color: #646464;
+    font-size: 14px;
+    margin-top: 0px;
+}

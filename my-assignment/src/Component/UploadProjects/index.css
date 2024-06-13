@@ -1,0 +1,99 @@
+.upload-project-container{
+    display: flex;
+    font-family: "Roboto";
+    width: 100%;
+    min-height: 100vh;
+}
+
+.upload-container{
+    background-color: #F6F1FC;
+    width: 100%;
+}
+
+
+.icon-and-path-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.upload-content-card{
+    padding-left: 36px;
+    padding-right: 36px;
+}
+
+.path-card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.upload-path{
+    color: #7E22CE;
+    font-weight: 700;
+}
+
+.icon-card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.upload-heading{
+    color: #7E22CE;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.content-card{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.individual-content-card{
+    display: flex;
+    align-items: center;
+    border: 1px solid #eceaea;
+    gap: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 24px;
+    margin-right: 24px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 4px 4px #dcd9d9;
+}
+
+.upload-image{
+    width: 45px;
+    height: 45px;
+}
+
+.add-project-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px dashed #999999;
+}
+
+.add-project-button{
+    color: #7E22CE;
+    border: 1px solid #7E22CE;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border-radius: 16px;
+}
+
+.popup-icon-crad{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
